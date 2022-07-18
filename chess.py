@@ -9,3 +9,11 @@ arr = [[0]*cols]*rows
   
 for row in arr:
     print(row)
+
+#Creating pieces class, which check team, type and viability of each piece
+
+class Piece:
+    def __init__(self, team, type, viability = True):
+        self.team = team
+        self.type = type
+        self.viability = viability
